@@ -1,6 +1,6 @@
-# Device Tree for OnePlus 6 (enchilada)
+# Device Tree for OnePlus 6 (fajitaa)
 
-The OnePlus 6 (codenamed _"enchilada"_) is a flagship smartphone from OnePlus.
+The OnePlus 6 (codenamed _"fajita"_) is a flagship smartphone from OnePlus.
 It was released in May 2018.
 
 | Basic                   | Spec Sheet                                                                                                                     |
