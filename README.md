@@ -1,6 +1,6 @@
 # Device Tree for OnePlus 6 (fajitaa)
 
-The OnePlus 6 (codenamed _"fajita"_) is a flagship smartphone from OnePlus.
+The OnePlus 6T (codenamed _"fajita"_) is a flagship smartphone from OnePlus.
 It was released in May 2018.
 
 | Basic                   | Spec Sheet                                                                                                                     |
@@ -18,7 +18,7 @@ It was released in May 2018.
 
 Copyright 2018 - The LineageOS Project.
 
-![OnePlus 6](https://cdn2.gsmarena.com/vv/pics/oneplus/oneplus-6-5.jpg "OnePlus 6")
+![OnePlus 6](https://cdn2.gsmarena.com/vv/pics/oneplus/oneplus-6t-thunder-purple-1.jpg "OnePlus 6")
 
 
 ## Temporary build instructions
