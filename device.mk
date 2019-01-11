@@ -28,16 +28,6 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/product_launched_with_p.mk)
 DEVICE_PACKAGE_OVERLAYS += \
     $(LOCAL_PATH)/overlay
 
-# Prebuilts
-PRODUCT_PACKAGES += \
-    oneplus-framework-res \
-    OnePlusWizard \
-    OPFaceUnlock \
-    OPSettingsProvider \
-    seccamservice \
-    OPSesAuthentication \
-    SetupWizard
-
 # Device uses high-density artwork where available
 PRODUCT_AAPT_CONFIG := normal
 PRODUCT_AAPT_PREF_CONFIG := xxhdpi
@@ -48,3 +38,7 @@ TARGET_SCREEN_WIDTH := 1080
 
 # Inherit from oneplus sdm845-common
 $(call inherit-product, device/oneplus/sdm845-common/common.mk)
+
+# Vendor init
+TARGET_INIT_VENDOR_LIB := libinit_fajita
+TARGET_RECOVERY_DEVICE_MODULES := libinit_fajita
