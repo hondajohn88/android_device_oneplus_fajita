@@ -22,5 +22,8 @@ DEVICE_PATH := device/oneplus/fajita
 # Bluetooth
 BOARD_BLUETOOTH_BDROID_BUILDCFG_INCLUDE_DIR := $(DEVICE_PATH)/bluetooth/include
 
+# Platform build
+BUILD_NUMBER := 1812260627
+
 # Kernel
 TARGET_KERNEL_CONFIG := flash_defconfig

@@ -61,6 +61,6 @@ void vendor_load_properties()
         return;
 
     // fingerprint
-    property_override("ro.build.description", "OnePlus6T 9 PKQ1.180716.001 1811032036 release-keys");
-    property_override_dual("ro.build.fingerprint", "ro.vendor.build.fingerprint", "OnePlus/OnePlus6T/OnePlus6T:9/PKQ1.180716.001/1811032036:user/release-keys");
+//    property_override("ro.build.description", "fajita 9 PKQ1.180716.001 1812260627 test-keys");
+//    property_override_dual("ro.build.fingerprint", "ro.vendor.build.fingerprint", "OnePlus/superior_fajita/fajita:9/PKQ1.180716.001/1812260627:userdebug/test-keys");
 }
